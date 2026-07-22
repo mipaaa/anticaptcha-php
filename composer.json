@@ -1,0 +1,16 @@
+{
+    "name": "mipaaa/anticaptcha-php",
+    "description": "PHP API client for the Anti-Captcha.Com captcha solving service.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["captcha", "anticaptcha", "anti-captcha", "recaptcha", "hcaptcha", "api", "solver"],
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["."],
+        "exclude-from-classmap": ["/examples/"]
+    }
+}
